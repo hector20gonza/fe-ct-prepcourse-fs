@@ -54,12 +54,12 @@ function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
    // Retornar true si está, o false si no está.
    // Tu código:
-   if(array.includes(elemento))
-{
- return  true;
-}else {
+   if(array.includes(elemento))  
+   {
+    return  true;
+   }else {
    return false;
-}
+  }
 }
 
 function agregarNumeros(arrayOfNums) {
@@ -70,7 +70,7 @@ function agregarNumeros(arrayOfNums) {
    for(let i = 0; i < arrayOfNums.length; i++){  
      suma +=  arrayOfNums[i];
      }
-return suma;
+    return suma;
    
 }
 
